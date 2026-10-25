@@ -5,21 +5,34 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Arun Trader max</title>
 
+<!-- Meta Pixel Code -->
 <script>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
 n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
+if(!f._fbq)f._fbq=n;
+n.push=n;
+n.loaded=!0;
+n.version='2.0';
+n.queue=[];
+t=b.createElement(e);
+t.async=!0;
+t.src=v;
+s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)
+}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
+
 fbq('init', '1780344693229801');
 fbq('track', 'PageView');
 </script>
-<noscript><img height="1" width="1" style="display:none"
+<noscript>
+<img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=1780344693229801&ev=PageView&noscript=1"
-/></noscript>
+/>
+</noscript>
+<!-- End Meta Pixel Code -->
+
 <style>
 /* CSS Reset and Body Styles */
 * {
@@ -48,7 +61,7 @@ body {
     border-radius: 30px;
     padding: 40px 25px;
     text-align: center;
-    box-shadow: 0 0 20px rgba(0, 198, 255, 0.4); /* Cyan glow */
+    box-shadow: 0 0 20px rgba(0, 198, 255, 0.4);
 }
 
 /* Rounded Profile Image */
@@ -80,14 +93,14 @@ h1 {
 
 .features-list li {
     font-size: 16px;
-    color: #a1a1a1; /* Dim grey for subtext */
+    color: #a1a1a1;
     margin-bottom: 20px;
     display: flex;
     align-items: center;
     line-height: 1.4;
 }
 
-/* Specific Icons (Using Emoji as placeholders) */
+/* Specific Icons */
 .features-list li::before {
     content: '';
     display: inline-block;
@@ -99,11 +112,25 @@ h1 {
     background-position: center;
 }
 
-/* Placeholder for specific icons from reference image */
-.features-list li.icon-globe::before { content: '🌐'; font-size: 20px; }
-.features-list li.icon-chart::before { content: '📊'; font-size: 20px; }
-.features-list li.icon-diamond::before { content: '💎'; font-size: 20px; }
-.features-list li.icon-book::before { content: '📖'; font-size: 20px; }
+.features-list li.icon-globe::before {
+    content: '🌐';
+    font-size: 20px;
+}
+
+.features-list li.icon-chart::before {
+    content: '📊';
+    font-size: 20px;
+}
+
+.features-list li.icon-diamond::before {
+    content: '💎';
+    font-size: 20px;
+}
+
+.features-list li.icon-book::before {
+    content: '📖';
+    font-size: 20px;
+}
 
 /* Main Gradient Button */
 .telegram-btn {
@@ -111,7 +138,6 @@ h1 {
     width: 100%;
     padding: 18px;
     border-radius: 50px;
-    /* Specific Blue to Purple Gradient */
     background: linear-gradient(135deg, #2af5ef 0%, #009efd 30%, #b721ff 100%);
     color: white;
     font-weight: 700;
@@ -129,7 +155,7 @@ h1 {
     box-shadow: 0 6px 20px rgba(183, 33, 255, 0.5);
 }
 
-/* Motivational Text in English */
+/* Motivational Text */
 .hindi-quote {
     font-size: 15px;
     color: #e0e0e0;
@@ -150,7 +176,7 @@ h1 {
 }
 
 .ads-link {
-    color: #58a6ff; /* Standard 'link' blue */
+    color: #58a6ff;
     text-decoration: none;
     font-weight: 600;
 }
@@ -159,7 +185,7 @@ h1 {
     text-decoration: underline;
 }
 
-/* Footer (Terms, Privacy, Facebook disclaimer) */
+/* Footer */
 .footer {
     font-size: 11px;
     color: #586069;
@@ -186,8 +212,8 @@ h1 {
     <h1>Arun Trader max</h1>
 
     <ul class="features-list">
-        <li class="icon-globe">Learning & Educational Sessions</li>
-        <li class="icon-chart">Market Concepts & Awareness</li>
+        <li class="icon-globe">Learning &amp; Educational Sessions</li>
+        <li class="icon-chart">Market Concepts &amp; Awareness</li>
         <li class="icon-diamond">Chart Reading Concepts</li>
         <li class="icon-book">Educational Case Discussions</li>
     </ul>
